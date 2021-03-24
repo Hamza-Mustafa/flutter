@@ -21,3 +21,8 @@ VS Code Terminal commands <br/>
 —>> flutter doctor <br/>
 —>> flutter run <br/>
 —>> open -a simulator <br/>
+
+Shortcut to make widget code by deafult : <br/>
+------------------------------------------
+1- To create Stateless Widget just type stles <br/>
+2- To create Statefull Widget just type stful <br/>
