@@ -31,3 +31,7 @@ Difference Btw MaterialApp/Material :
 ------------------------------------------
 1- MaterialApp is a widget that introduces many interesting tools such as Navigator or Theme to help you develop your app.
 2- Material is, on the other hand, a widget used to define a UI element respecting Material rules. It defines what elevation is, shape, and stuff. Then reused by many material widgets such as Appbar or Card or FloatingButton.
+
+Scaffold :
+---------
+A Scaffold Widget provides a framework which implements the basic material design visual layout structure of the flutter app. It provides APIs for showing drawers, snack bars and bottom sheets.
