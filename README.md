@@ -35,3 +35,4 @@ Difference Btw MaterialApp/Material :
 Scaffold :
 ---------
 A Scaffold Widget provides a framework which implements the basic material design visual layout structure of the flutter app. It provides APIs for showing drawers, snack bars and bottom sheets.
+This widget is able to occupy the whole device screen.
