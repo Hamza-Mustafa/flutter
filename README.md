@@ -3,11 +3,11 @@ Flutter Commands
 
 export PATH="$PATH: /Users/hamzamustafa/desktop/flu/flutter/bin"
 
-—>> git clone https://github.com/flutter/flutter.git -b stable
-—>> flutter precache
+#git clone https://github.com/flutter/flutter.git -b stable
+#flutter precache
 
-—>> flutter create my_app
-—>> cd my_app
+#flutter create my_app
+#cd my_app
 —>> flutter analyze
 —>> flutter test
 —>> flutter --version
