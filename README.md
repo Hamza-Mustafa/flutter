@@ -26,3 +26,8 @@ Shortcut to make widget code by deafult : <br/>
 ------------------------------------------
 1- To create Stateless Widget just type stles <br/>
 2- To create Statefull Widget just type stful <br/>
+
+Difference Btw MaterialApp/Material : 
+------------------------------------------
+1- MaterialApp is a widget that introduces many interesting tools such as Navigator or Theme to help you develop your app.
+2- Material is, on the other hand, a widget used to define a UI element respecting Material rules. It defines what elevation is, shape, and stuff. Then reused by many material widgets such as Appbar or Card or FloatingButton.
