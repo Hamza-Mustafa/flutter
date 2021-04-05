@@ -27,6 +27,31 @@ VS Code Terminal commands <br/>
 —>> flutter run <br/>
 —>> open -a simulator <br/>
 
+------------------------------------------------------------------------------<br/>
+Cocoa pods upgrade ruby error InCase of flutter doctor: <br/>
+When upgrading XCode you need to install the Command-Line Tools and additionally accept the terms and conditions: <br/>
+
+Open Terminal <br/>
+xcode-select --install <br/>
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer <br/>
+sudo xcodebuild -license accept <br/>
+curl -L https://get.rvm.io | bash -s stable <br/>
+
+Close and Reopen Terminal <br/>
+RVM command not found : <br/>
+————————<br/>
+source ~/.rvm/scripts/rvm <br/>
+type rvm | head -n 1 <br/>
+If the output is yes rvm is a function, it needs to be source ~/.rvm/scripts/rvmadded to the ~/.bash_profilefile. <br/>
+
+git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow <br/>
+brew update <br/>
+———————<br/>
+rvm install ruby-2.6<br/>
+sudo gem install cocoapods<br/>
+——————<br/>
+
+
 Shortcut to make widget code by deafult : <br/>
 ------------------------------------------
 1- To create Stateless Widget just type stles <br/>
