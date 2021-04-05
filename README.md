@@ -1,6 +1,11 @@
 Flutter Commands
 
-export PATH="$PATH: /Users/hamzamustafa/desktop/flu/flutter/bin"
+Open terminal <br/>
+Type: vim .bash_profile <br/>
+Press I (I for insert) <br/>
+Than paste this :  export PATH="$PATH: /Users/apple/desktop/flu/flutter/bin" <br/>
+Press esc key <br/>
+Than type :wq! (For saving) <br/>
 
 —>> git clone https://github.com/flutter/flutter.git -b stable <br/>
 —>> flutter precache <br/>
